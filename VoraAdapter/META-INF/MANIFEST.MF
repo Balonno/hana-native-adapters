@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ClassPath: .,
+ lib/com.sap.hana.dp.adapterframework_1.2.11.jar,
+ lib/com.sap.hana.dp.agent_1.2.11.jar,
+ lib/com.sap.hana.dp.log4jfragment_1.2.11.jar,
+ lib/com.sap.hana.dp.ui.template_1.2.11.jar,
+Bundle-ManifestVersion: 2
+Bundle-Name: om.sap.hsc.voraadapter
+Bundle-SymbolicName: com.sap.hsc.voraadapter
+Bundle-Activator: com.sap.hsc.voraadapter.Activator
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Import-Package: org.osgi.framework;version="1.6.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: com.sap.hsc.voraadapter
